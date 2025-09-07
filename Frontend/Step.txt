@@ -1,0 +1,77 @@
+npm create vite@latest lankacraft -- --templeate react  
+cd lankacraft
+
+npm install
+
+
+mui Installation ("https://mui.com/material-ui/getting-started/installation/")
+npm install @mui/material @emotion/react @emotion/styled
+
+mui icon insataltion("https://mui.com/material-ui/getting-started/installation/")
+npm install @mui/icons-material @mui/material @emotion/styled @emotion/react
+
+
+Tailwind Css Instalation("https://tailwindcss.com/docs/installation/using-vite")
+Framework guide-Choose React
+npm install tailwindcss @tailwindcss/vite- this is latest so i use old version 
+
+Configure Vite Plugin
+Add the @tailwindcss/vite plugin to your Vite configuration.
+
+import { reactRouter } from "@react-router/dev/vite";
+import { defineConfig } from "vite";
+import tsconfigPaths from "vite-tsconfig-paths";
+import tailwindcss from "@tailwindcss/vite";
+export default defineConfig({
+  plugins: [
+    tailwindcss(),
+    reactRouter(),
+    tsconfigPaths(),
+  ],
+});
+
+
+
+Import Tailwind CSS
+Add an @import to ./app/app.css that imports Tailwind CSS.
+
+tailwind.css
+@import "tailwindcss";
+
+
+
+05
+Start your build process
+Run your build process with npm run dev.
+
+Terminal
+npm run dev
+
+
+
+
+
+-----------------------------------------------------
+
+1. Nav bar Design
+I am Using Navigation bar in Tailwind css With centered logo and featured categories
+E-Commerce Navigation -search
+
+2. Slide Show View
+react alic carousel-Search
+"https://www.npmjs.com/package/react-alice-carousel"
+npm i react-alice-carousel-Treminal type
+
+
+search google"https://maxmarinich.github.io/react-alice-carousel/"
+Live demo click 
+
+Choose one
+
+and past MainCarousel page in my code
+
+
+
+
+JWT Mapping Register
+npm i redux-thunk react-redux axios

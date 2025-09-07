@@ -1,0 +1,57 @@
+-- MySQL dump 10.13  Distrib 8.0.43, for Win64 (x86_64)
+--
+-- Host: localhost    Database: lankacraftdb1
+-- ------------------------------------------------------
+-- Server version	8.0.43
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!50503 SET NAMES utf8 */;
+/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+/*!40103 SET TIME_ZONE='+00:00' */;
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+
+--
+-- Table structure for table `cart`
+--
+
+DROP TABLE IF EXISTS `cart`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `cart` (
+  `cart_id` bigint NOT NULL AUTO_INCREMENT,
+  `discount` int NOT NULL,
+  `total_discount_price` int NOT NULL,
+  `total_item` int DEFAULT NULL,
+  `total_price` double DEFAULT NULL,
+  `fk_user_id` bigint NOT NULL,
+  PRIMARY KEY (`cart_id`),
+  UNIQUE KEY `UKr7d50qhd9vso0ucdbd8gwl7kr` (`fk_user_id`),
+  CONSTRAINT `FK9rxso1igd89l9tgjo334mnv5y` FOREIGN KEY (`fk_user_id`) REFERENCES `user` (`user_id`)
+) ENGINE=InnoDB AUTO_INCREMENT=34 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `cart`
+--
+
+LOCK TABLES `cart` WRITE;
+/*!40000 ALTER TABLE `cart` DISABLE KEYS */;
+INSERT INTO `cart` VALUES (1,41300,0,3,41300,1),(2,0,0,0,0,2),(3,0,0,0,0,52),(4,0,0,0,0,53),(5,0,0,0,0,54),(6,0,0,0,0,55),(7,0,0,0,0,56),(8,0,0,0,0,57),(9,0,0,0,0,102),(10,0,0,0,0,103),(11,71300,0,7,71300,152),(12,800,0,1,800,153),(13,41600,0,3,41600,202),(14,27500,1500,4,29000,252),(15,0,0,0,0,302),(16,3500,500,1,4000,352),(17,0,0,0,0,402),(18,0,0,0,0,403),(19,0,0,0,0,404),(20,0,0,0,0,452),(21,0,0,0,0,453),(22,0,0,0,0,502),(23,0,0,0,0,503),(24,0,0,0,0,504),(25,0,0,0,0,552),(26,0,0,0,0,602),(27,0,0,0,0,652),(28,0,0,0,0,702),(29,0,0,0,0,703),(30,0,0,0,0,752),(31,0,0,0,0,753),(32,0,0,0,0,754),(33,2400,0,3,2400,755);
+/*!40000 ALTER TABLE `cart` ENABLE KEYS */;
+UNLOCK TABLES;
+/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+
+-- Dump completed on 2025-09-06 20:16:10

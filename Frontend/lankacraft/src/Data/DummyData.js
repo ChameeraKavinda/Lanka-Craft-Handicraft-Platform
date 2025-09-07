@@ -1,0 +1,122 @@
+export const dummyData = [
+  {
+    id: 1,
+    imageUrl: "https://crafts.lk/wp-content/uploads/2021/01/web-2-247x296.jpg",
+    path: "/shop/wood",
+    brand: "Wood Craft",
+    title: "Handmade Wooden Jewelry Box",
+    description: "Beautifully carved jewelry box made of teak wood.",
+    price: 2500,
+    stock: 12,
+    artisan: "Amal Perera",
+    category: "Woodwork"
+  },
+  {
+    id: 2,
+    imageUrl: "https://crafts.lk/wp-content/uploads/2021/01/web-5-247x296.jpg",
+    path: "/shop/paintings",
+    brand: "Traditional Art",
+    title: "Kandyan Dancing Painting",
+    description: "Colorful Sri Lankan Kandyan dance wall painting.",
+    price: 4500,
+    stock: 5,
+    artisan: "Nimali Fernando",
+    category: "Paintings"
+  },
+  {
+    id: 3,
+    imageUrl: "https://lakshilpa.com/wp-content/uploads/2021/11/119.023-300x300.jpg",
+    path: "/shop/textiles",
+    brand: "Handloom",
+    title: "Handloom Saree",
+    description: "Elegant handwoven saree with traditional Sri Lankan patterns.",
+    price: 8000,
+    stock: 7,
+    artisan: "Sewwandi Jayasinghe",
+    category: "Textiles"
+  },
+  {
+    id: 4,
+    imageUrl: "https://crafts.lk/wp-content/uploads/2021/01/web-11-247x296.jpg",
+    path: "/shop/crafts",
+    brand: "Coconut Shell",
+    title: "Coconut Shell Bowl Set",
+    description: "Eco-friendly handmade bowl set crafted from coconut shells.",
+    price: 1500,
+    stock: 20,
+    artisan: "Suresh Silva",
+    category: "Eco Crafts"
+  },
+  {
+    id: 5,
+    imageUrl: "https://crafts.lk/wp-content/uploads/2021/01/web-6-247x296.jpg",
+    path: "/shop/metal",
+    brand: "Brassware",
+    title: "Traditional Brass Oil Lamp",
+    description: "Classic Sri Lankan brass oil lamp used for ceremonies.",
+    price: 12000,
+    stock: 3,
+    artisan: "Kumara Dissanayake",
+    category: "Metal Crafts"
+  },
+  {
+    id: 6,
+    imageUrl: "https://crafts.lk/wp-content/uploads/2021/01/web-16-247x296.jpg",
+    path: "/shop/masks",
+    brand: "Traditional Masks",
+    title: "Kolam Dance Mask",
+    description: "Hand-painted wooden Kolam mask representing Sri Lankan folklore.",
+    price: 3500,
+    stock: 10,
+    artisan: "Ruwan Karunaratne",
+    category: "Masks"
+  },
+  {
+    id: 7,
+    imageUrl: "https://crafts.lk/wp-content/uploads/2021/01/web-12-247x296.jpg",
+    path: "/shop/pottery",
+    brand: "Clay Pottery",
+    title: "Terracotta Water Pot",
+    description: "Handcrafted terracotta pot that keeps water naturally cool.",
+    price: 900,
+    stock: 25,
+    artisan: "Sanduni Weerasinghe",
+    category: "Pottery"
+  },
+  {
+    id: 8,
+    imageUrl: "https://lakshilpa.com/wp-content/uploads/2021/11/119.023-300x300.jpg",
+    path: "/shop/jewelry",
+    brand: "Beadwork",
+    title: "Handmade Beaded Necklace",
+    description: "Stylish beaded necklace with traditional Sri Lankan patterns.",
+    price: 2200,
+    stock: 15,
+    artisan: "Tharushi Madushani",
+    category: "Jewelry"
+  },
+  {
+    id: 9,
+    imageUrl: "https://crafts.lk/wp-content/uploads/2021/01/web-3-247x296.jpg",
+    path: "/shop/batik",
+    brand: "Batik",
+    title: "Batik Wall Hanging",
+    description: "Colorful batik art wall hanging made with natural dyes.",
+    price: 3000,
+    stock: 8,
+    artisan: "Chathura Ranasinghe",
+    category: "Textiles"
+  },
+  {
+    id: 10,
+    imageUrl: "https://crafts.lk/wp-content/uploads/2021/01/web-12-247x296.jpg",
+    path: "/shop/baskets",
+    brand: "Cane Craft",
+    title: "Woven Cane Basket",
+    description: "Durable handwoven cane basket for home use.",
+    price: 1800,
+    stock: 18,
+    artisan: "Janaka Alahakoon",
+    category: "Baskets"
+  }
+];
